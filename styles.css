@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* outline: red dashed 1px; */
+}
+
+html, body {
+    background: #2980B9;
+    background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);
+    background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);
+    min-width: 400px;
+  }
+
+#titre {
+    margin-top: 50px;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    color: black;
+    font-weight: bolder;
+}
+
+#ville {
+    text-align: center;
+    font-size: 25px;
+    color: black;
+    margin-top: 15px;
+    font-style: italic;
+    text-transform: capitalize;
+}
+
+#température {
+    text-align: center;
+    font-size: 41.6px;
+    color: black;
+    margin-top: 15px;
+}
+
+#container {
+    text-align: center;
+}
+
+#changer {
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    margin-top: 15px;
+    font-weight: bold;
+    background: rgba(178, 223, 251, .3);
+    display: inline-block;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
